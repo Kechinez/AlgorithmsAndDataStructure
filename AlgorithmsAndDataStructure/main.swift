@@ -8,5 +8,14 @@
 
 import Foundation
 
-print("Hello, World!")
+var stack = Stack<String>()
 
+stack.push(newElement: "One")
+stack.push(newElement: "Two")
+stack.push(newElement: "Three")
+stack.push(newElement: "Four")
+stack.push(newElement: "Five")
+
+print(stack.description)
+stack.pop()
+print(stack.description)
