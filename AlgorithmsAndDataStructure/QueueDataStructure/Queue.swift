@@ -9,3 +9,24 @@
 import Foundation
 
 // Swift generic stack implementation example
+
+struct Queue<Element> {
+    var queue: [Element] = []
+
+    mutating func inqueue(element: Element) {
+        queue.append(element)
+    }
+
+    mutating func dequeue() -> Element? {
+        guard !queue.isEmpty else { return nil }
+        let deletedItem = queue.remove(at: 0)
+        return deletedItem
+    }
+    
+    func peek() -> Element? {
+        return queue.first
+    }
+    
+    
+
+}

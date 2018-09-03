@@ -13,8 +13,9 @@ import Foundation
 struct Stack<Element> {
     fileprivate var stack: [Element] = []
     
-    mutating func pop() {
-         _ = stack.popLast()
+    mutating func pop() -> Element? {
+        guard let popedItem = stack.popLast() else { return nil}
+        return popedItem
     }
     
     mutating func push(newElement: Element) {
