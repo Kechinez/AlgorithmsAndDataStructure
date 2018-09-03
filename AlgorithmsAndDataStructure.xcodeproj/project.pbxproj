@@ -60,9 +60,17 @@
 			isa = PBXGroup;
 			children = (
 				3D2D6E25213D2D50004FA710 /* main.swift */,
-				3D2D6E2C213D2DBD004FA710 /* StackDataStructure.swift */,
+				3D2D6E2E213D2FB7004FA710 /* StackDataStructure */,
 			);
 			path = AlgorithmsAndDataStructure;
+			sourceTree = "<group>";
+		};
+		3D2D6E2E213D2FB7004FA710 /* StackDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D6E2C213D2DBD004FA710 /* StackDataStructure.swift */,
+			);
+			path = StackDataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
