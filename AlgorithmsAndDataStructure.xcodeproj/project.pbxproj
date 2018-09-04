@@ -10,6 +10,7 @@
 		3D2D6E26213D2D50004FA710 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D6E25213D2D50004FA710 /* main.swift */; };
 		3D2D6E2D213D2DBD004FA710 /* StackDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D6E2C213D2DBD004FA710 /* StackDataStructure.swift */; };
 		3D2D6E31213D4364004FA710 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D6E30213D4364004FA710 /* Queue.swift */; };
+		3D2D6E34213E7141004FA710 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D6E33213E7141004FA710 /* InsertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		3D2D6E25213D2D50004FA710 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3D2D6E2C213D2DBD004FA710 /* StackDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDataStructure.swift; sourceTree = "<group>"; };
 		3D2D6E30213D4364004FA710 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		3D2D6E33213E7141004FA710 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		3D2D6E24213D2D50004FA710 /* AlgorithmsAndDataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				3D2D6E32213E7100004FA710 /* InsertionSortAlgorithm */,
 				3D2D6E2F213D431F004FA710 /* QueueDataStructure */,
 				3D2D6E25213D2D50004FA710 /* main.swift */,
 				3D2D6E2E213D2FB7004FA710 /* StackDataStructure */,
@@ -82,6 +85,14 @@
 				3D2D6E30213D4364004FA710 /* Queue.swift */,
 			);
 			path = QueueDataStructure;
+			sourceTree = "<group>";
+		};
+		3D2D6E32213E7100004FA710 /* InsertionSortAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3D2D6E33213E7141004FA710 /* InsertionSort.swift */,
+			);
+			path = InsertionSortAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D2D6E2D213D2DBD004FA710 /* StackDataStructure.swift in Sources */,
+				3D2D6E34213E7141004FA710 /* InsertionSort.swift in Sources */,
 				3D2D6E31213D4364004FA710 /* Queue.swift in Sources */,
 				3D2D6E26213D2D50004FA710 /* main.swift in Sources */,
 			);
