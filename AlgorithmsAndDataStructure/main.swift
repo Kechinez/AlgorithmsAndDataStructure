@@ -27,5 +27,7 @@ import Foundation
 
 
 
+let array = [7, 3, 10, 9, 1]
+let sortedArray = mergeSort(array)
 
-
+print(sortedArray)
