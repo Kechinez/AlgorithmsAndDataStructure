@@ -27,7 +27,7 @@ import Foundation
 
 
 
-let array = [7, 3, 10, 9, 1]
-let sortedArray = mergeSort(array)
+var array = [7, 3, 9, 1, 6, 0, 2]
+let result = quicksortLomuto(&array, low: 0, high: array.count - 1)
 
-print(sortedArray)
+print(array)
