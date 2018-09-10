@@ -27,7 +27,20 @@ import Foundation
 
 
 
-var array = [7, 3, 9, 1, 6, 0, 2]
-let result = quicksortLomuto(&array, low: 0, high: array.count - 1)
+//var array = [7, 3, 9, 1, 6, 0, 2]
+//let result = quicksortLomuto(&array, low: 0, high: array.count - 1)
 
-print(array)
+//print(array)
+
+
+
+
+let linkedList = LinkedList<String>()
+linkedList.append(value: "Zzz")
+linkedList.append(value: "Brbrbr")
+
+
+
+
+
+
